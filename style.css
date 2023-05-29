@@ -1,0 +1,156 @@
+
+
+body {
+    heigh: 5000px;
+    background-image: url("https://img.freepik.com/foto-gratis/cosmeticos-colores-fondo-moderno_155003-2162.jpg");
+    background-size: 100rem;
+    width: 7000;
+    
+  }
+
+   .nav ul{
+
+    list-style: none;
+    text-align: center;
+    background-color: rgb(199, 156, 240);
+    padding: 100;
+    margin: 100;
+
+   }
+
+   .nav li{
+
+    display: inline-block;
+
+   }
+
+   .nav a{
+      
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    height: 10;
+    display: block;
+    transition: .5s;
+
+   }
+
+   a:hover{
+    background-color: blueviolet;
+   }
+ 
+   div#Inicio {
+    margin: auto;
+    width: 1000px;
+    height: 800;
+    background-color: rgb(238, 170, 247);
+      border: purple 2px solid;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+   div#Perfumes {
+    border: purple 2px solid;
+    margin: auto;
+    width: 1000px;
+    height: 800;
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+   div#Escencia1 {
+    border: purple 2px solid;
+    margin: auto;
+    width: 1000px;
+    height: 800;
+    background-color: rgb(238, 170, 247);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+   div#Escencia2 {
+    border: purple 2px solid;
+    margin: auto;
+    width: 1000px;
+    height: 800;
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+   div#Escencia3 {
+    border: purple 2px solid;
+    margin: auto;
+    width: 1000px;
+    height: 800;
+    background-color: rgb(238, 170, 247);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+   div#Conocenos {
+    border: purple 2px solid;
+    margin: auto;
+    width: 1000px;
+    height: 800;
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+   .slider-container {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    overflow-x: scroll;
+  }
+  
+  .slider-container img {
+    flex: 0 0 50%;
+    width: 50%;
+    object-fit: cover;
+  }
+
+  div#slider-container{
+    background-color: rgb(238, 170, 247);
+  }
+
+
+
+
+
+  header {
+    width: 100%;
+    z-index: 100;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 30px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+  }
+
+
+  div#Menu {
+    border: purple 2px solid;
+    margin: auto;
+    width: 1000px;
+    height: 800;
+    background-color: rgb(238, 170, 247);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+
+
